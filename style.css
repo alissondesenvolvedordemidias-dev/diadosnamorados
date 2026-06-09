@@ -1,0 +1,90 @@
+/* Estilos globais e paleta de cores romântica */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff; /* Rosa claro acolhedor */
+    color: #b61717f1; /* Vermelho escuro elegante para melhor leitura */
+    margin: 0;
+    padding: 0;
+    display: block;
+    text-align: center;
+}
+/* Sombra parte de cima */
+header { 
+    background-color: #ca0d2fd2;
+    color: white;
+    width: 100%;
+    padding: 2rem 0;
+    box-shadow: 0 4px 6px rgba(75, 71, 71, 0.185);
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+main {
+    max-width: 800px;
+    padding: 2rem;
+    margin: 2rem auto 0 auto; /* Centraliza o bloco na tela */
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(255, 77, 110, 0.829);
+}
+
+p.lead-copy {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+    font-weight: 500;
+}
+
+p.body-copy {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    color: #ca0d2fd2;
+}
+
+.buttons-container {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+button {
+    background-color: #ee0000;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 0.5rem 1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(255, 77, 109, 0.4);
+}
+
+button:hover {
+    background-color: #c9184a;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(201, 24, 74, 0.6);
+}
+
+footer {
+    margin-top: 3rem;
+    padding: 2rem;
+    font-size: 0.9rem;
+    color: #800f2f;
+}
+
+/* Animação que faz o coração do botão pulsar ao clicar */
+.heart-warm {
+    animation: pulse 0.5s ease-in-out;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
